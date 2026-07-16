@@ -2,7 +2,7 @@
 
 ### The Diagonal is Saturated in Dimension Six: Degtyarev–Shimada Conjecture 1.2 for the $3^v$ Fermat Sixfolds
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21382543.svg)](https://doi.org/10.5281/zenodo.21382543)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21382543-blue)](https://doi.org/10.5281/zenodo.21382543)
 
 > **Status:** candidate proof · every load-bearing number is a finite computation over $\mathbb{F}_3$ on a fixed, $q$-free object, reproduced in **Macaulay2 (v1.26.06)** and cross-checked in independent engines · cold-reviewed by four AI systems across three model families, none of which produced a break · **awaiting expert human review.**
 > This is offered to the mathematical community precisely so that it can be examined, reproduced, and — if it holds — used. If you can break any link, the byte-exact discrepancy is more valuable to us than agreement.
