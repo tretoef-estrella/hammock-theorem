@@ -38,8 +38,8 @@ The **Ledger identity** $ZA(q)+W(q)+\mathrm{Top}(q)+B_3(q)=P_3(q)$ (an exact qua
 
 The single structural step a cold review had held open — the level-2 collapse of three swap families to one — is reduced to a representation-theoretic invariant and **measured**: the multiplicity of the antisymmetric line in $H_1(K(3,3))$ equals $1$ over $\mathbb{Q}$ and over $\mathbb{F}_3$, isolated as a Maschke-free kernel. See [`theorems/key/level-2-mechanism.md`](theorems/key/level-2-mechanism.md).
 
-Read the full proof: **[paper/THE_HAMMOCK_THEOREM_FINAL.pdf](paper/THE_HAMMOCK_THEOREM_FINAL.pdf)** (also as [Markdown](paper/THE_HAMMOCK_THEOREM_FINAL.md)).
-The adversarial edition (how each link was proved, how to attack it, why it holds): **[paper/THE_HAMMOCK_THEOREM_BREAKERS_EDITION.md](paper/THE_HAMMOCK_THEOREM_BREAKERS_EDITION.md)**.
+Read the full proof: **[paper/THE_HAMMOCK_THEOREM_MACAULAY_HAMAQUERO_FINAL_v2.pdf](paper/THE_HAMMOCK_THEOREM_MACAULAY_HAMAQUERO_FINAL_v2.pdf)** (also as [Markdown](paper/THE_HAMMOCK_THEOREM_MACAULAY_HAMAQUERO_FINAL.md)).
+The adversarial edition (how each link was proved, how to attack it, why it holds): **[paper/THE_HAMMOCK_THEOREM_MACAULAY_HAMAQUERO_BREAKERS_EDITION_FINAL.md](paper/THE_HAMMOCK_THEOREM_MACAULAY_HAMAQUERO_BREAKERS_EDITION_FINAL.md)**.
 
 ---
 
