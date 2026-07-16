@@ -19,7 +19,7 @@ $$A_3(q)=\dim_{\mathbb{F}_3} S/\big(E+\mathfrak{m}^{[q]}\big),\qquad \mathfrak{m
 
 $$A_3(q)=P_3(q)=105q^4-630q^3+1645q^2-2037q+918.$$
 
-Equivalently, the diagonal sublattice $\Sigma\,1_J=\mathrm{im}(\Delta)$ is **saturated** in $\bigoplus_J \mathcal{O}^{\otimes 4}$ at every level of the tower. This establishes **Conjecture 1.2 of Degtyarev–Shimada** ([arXiv:1405.4683](https://arxiv.org/abs/1405.4683)) for the degree-$3^v$ Fermat **sixfolds** — the first dimension beyond the fourfolds sealed by [The Sofa Theorem](https://doi.org/10.5281/zenodo.21288551), and the first instance of the parametric machinery that produced both.
+Equivalently, the diagonal sublattice $\Sigma\,1_J=\mathrm{im}(\Delta)$ is **saturated** in $\bigoplus_J \mathcal{O}^{\otimes 4}$ at every level of the tower. This establishes **Conjecture 1.2 of Degtyarev–Shimada** ([arXiv:1405.4683](https://arxiv.org/abs/1405.4683)) for the degree-$3^v$ Fermat **sixfolds** — the first dimension beyond the fourfolds sealed by [The Sofa Theorem](https://doi.org/10.5281/zenodo.21288551), which this paper's machinery also recovers as its dimension-four instance.
 
 ---
 
@@ -67,16 +67,16 @@ Every load-bearing number is a finite computation over $\mathbb{F}_3$ on a fixed
 
 ## The key theorems
 
-Each is a self-contained result; several travel outside this problem (the Odd Symmetric Theorem, the Recognition Theorem, the Covering Lemma are uniform in dimension). Full index of the further campaign results: **[theorems/OTHER_THEOREMS.md](theorems/OTHER_THEOREMS.md)**.
+Each is a self-contained result. Full index of the supporting lemmas: **[theorems/OTHER_THEOREMS.md](theorems/OTHER_THEOREMS.md)**.
 
 | Theorem | What it establishes |
 |---|---|
 | [Odd Symmetric](theorems/key/odd-symmetric-theorem.md) | $E=\bigcap_J I_J$, radical — the 105 matching-sheets meet in the CI radical |
 | [Star Architecture](theorems/key/star-architecture-theorem.md) | the flats are exhaustively words in two letters ($B_j$, $Z_j$); the classification is complete |
 | [Floor & Crosscut](theorems/key/floor-crosscut-theorem.md) | $A_3(q)\ge P_3(q)$ unconditionally; every coefficient of $P_3$ derived by Möbius crosscut |
-| [Recognition](theorems/key/recognition-theorem.md) | the window syzygy census is independent of the tower level (uniform in $k$) |
+| [Recognition](theorems/key/recognition-theorem.md) | the window syzygy census is independent of the tower level |
 | [Unified Annihilator Law](theorems/key/unified-annihilator-law.md) | the top zone as low degrees of an annihilator, $\bar\alpha_c=105\binom{c-9}{3}$, via an explicit surjective pinch |
-| [Covering Lemma](theorems/key/covering-lemma.md) | the lifting polynomials $X_J$ exist; $J\triangle J'$ is a union of even alternating cycles (uniform in $k$) |
+| [Covering Lemma](theorems/key/covering-lemma.md) | the lifting polynomials $X_J$ exist; $J\triangle J'$ is a union of even alternating cycles |
 | [Slack Species Derivation](theorems/key/slack-species-derivation.md) | the slack law composes stratum-by-stratum over the flat lattice; not a fit |
 | [Central Defect Law](theorems/key/central-defect-law.md) | the codim-2 defect as the Čech $H^1$ of the star nerve $K(3,3)$, $b_1=4$ |
 | [Level-2 Mechanism](theorems/key/level-2-mechanism.md) | three swap families collapse to one: $\mathrm{mult}(\mathrm{sgn})=1$ in $H_1(K(3,3))$, Maschke-free |
@@ -96,7 +96,7 @@ We believe the proof is correct, and its computational layer is shielded. In the
 ```
 paper/               the main paper (PDF, Markdown, and Breaker's Edition)
 theorems/key/        the eleven key theorems (Markdown)
-theorems/supporting/ the further campaign standalones consumed by the proof
+theorems/supporting/ the supporting lemmas consumed by the proof
 theorems/            OTHER_THEOREMS.md — index of every supporting result
 engines/             all computational certificates:
   macaulay2/           the Macaulay2 scripts (standard-CAS verification)
