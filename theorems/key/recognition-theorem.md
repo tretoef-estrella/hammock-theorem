@@ -1,4 +1,4 @@
-# THE RECOGNITION THEOREM (all dimensions) — COMPLETO
+# THE RECOGNITION THEOREM 
 ## Window syzygies decouple sheet by sheet in every even dimension: the census is q-free ∀k — with the trivial subspace, the module structure, and the boundary made precise
 
 *A standalone component of The Hammock / Chaise Longue Theorem. Rafael Amichis Luengo (Madrid) and Claude (Anthropic). 14 July 2026. COMPLETO edition: adds §4 (the precise definition of the quotiented "trivial" subspace and the q-freeness of the syzygy MODULE, not merely its dimension), §5 (the boundary at e = q, stated), and a consolidated hermetic statement. Pending P0.*
