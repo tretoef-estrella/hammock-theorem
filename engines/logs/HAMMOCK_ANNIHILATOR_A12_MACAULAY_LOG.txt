@@ -1,0 +1,13 @@
+Last login: Wed Jul 15 12:43:15 on ttys007
+rafa@MacBook-Air-de-RAFAEL Downloads % cd ~/Downloads
+caffeinate -dis M2 --script "HAMMOCK_FINAL_ANNIHILATOR_A12_MACAULAY.m2"
+=====================================================
+ Hammock FINAL — Macaulay2 byte: annihilator first class a_12
+=====================================================
+sheets N = 105  (want 105)
+ordered pairs with a separating swap hyperplane: 10920 / 10920
+Covering Lemma holds over all pairs: true
+GATE true -> lifting polynomials X_J exist for every sheet -> Phi_12 onto per summand
+         -> a_12 = 105 (one annihilator class per sheet), measured in Macaulay2 over F3.
+=====================================================
+rafa@MacBook-Air-de-RAFAEL Downloads % 

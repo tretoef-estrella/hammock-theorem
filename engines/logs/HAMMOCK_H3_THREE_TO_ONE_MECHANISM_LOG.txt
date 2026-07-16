@@ -1,0 +1,18 @@
+Last login: Wed Jul 15 11:34:23 on ttys006
+rafa@MacBook-Air-de-RAFAEL Downloads % cd ~/Downloads
+caffeinate -dis M2 --script "HAMMOCK_H3_THREE_TO_ONE_MECHANISM_v1.m2"
+=====================================================
+ H3 mechanism: three swap families -> one (over F3)
+=====================================================
+b1 = dim H1(K(3,3))        = 4   (want 4)
+sgn isotype dim            = 1   (want 1  <- ONE joint family)
+triv-fixed dim (reference) = 1   (want 1)
+std dim (remainder)        = 2   (want 2)
+GATE (b1=4 and sgn=1): true
+
+=> THREE swap families collapse to ONE at level 2 (sgn multiplicity = 1).
+   Hence the level-2 central-defect correction is +1*h_L(g), g=f-q, giving
+   c_i^{L2}(f) = -(7f+6) + (f-q+1) = -6f-(q+5)  [= -6f-14 at q=9].
+   Discriminant: m=1 -> -26 at (q=3,f=3) [filed]; m=3 -> -24; m=0 -> -27.
+=====================================================
+rafa@MacBook-Air-de-RAFAEL Downloads % 

@@ -1,0 +1,19 @@
+================================================================
+ HAMMOCK LEDGER — EXACT SYMBOLIC CERTIFICATE (SymPy Rational)
+================================================================
+
+(1) ZA + W + Top + B3  - P3  = 0  -> IDENTICAL
+
+(2) (P3 - ZA - W - Top) - B3_stated = 0  -> IDENTICAL
+
+(3) values at q = 9:
+    ZA  (9) =     5516   want     5516   OK
+    W   (9) =   133938   want   133938   OK
+    Top (9) =        0   want        0   OK
+    B3  (9) =   206011   want   206011   OK
+    P3  (9) =   345465   want   345465   OK
+    sum       =   345465   want   345465   OK
+
+================================================================
+ CERTIFICATE PASSED — Ledger identity exact, q=9 slices 4/4.
+================================================================

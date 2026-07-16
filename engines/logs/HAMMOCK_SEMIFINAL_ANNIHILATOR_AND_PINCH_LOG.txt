@@ -1,0 +1,6 @@
+annihilator first classes a_c=105*C(c-9,3), c=12..17: [105, 420, 1050, 2100, 3675, 5880]
+duality A_d(q=9)=ann_{44-d}: A_27..A_32 <-> ann_17..ann_12 = [5880, 3675, 2100, 1050, 420, 105]
+Top(3),Top(9),Top(27) = 0 0 628425   (fires first at q=27)
+Ledger q=9: ZA=5516 W=133938 Top=0 B3=206011 sum=345465 P3=345465 ok=True
+Ledger q=27: ZA=1204721 W=19447092 Top=628425 B3=23265901 sum=44546139 P3=44546139 ok=True
+Covering Lemma over all 105*104 pairs (separator exists): True -> Phi_c onto -> a_12=105

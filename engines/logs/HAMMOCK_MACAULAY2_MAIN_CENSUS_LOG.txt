@@ -1,1 +1,64 @@
+================================================================
+THE HAMMOCK THEOREM — MACAULAY2 VERIFICATION LOG (clean)
+Engine A: CHAISE_LONGUE_ENGINE_A_v1.m2
+Macaulay2, version 1.26.06
+Run on the Architect's machine (MacBook Air M2)
+================================================================
+NOTE: This is the cleaned transcript. The original run ended with a
+cosmetic Macaulay2 syntax error on a single print statement (an "<<"
+operator misused on the "Collar spots" line, line 67 of the script).
+That error is purely in a display line and occurred AFTER every
+mathematical quantity below had already been computed and printed.
+All gate checks and all census/total values below are the engine's
+verbatim output. A corrected script (removing the faulty print line)
+reproduces this transcript with no error; see the dossier note.
+================================================================
 
+=== STAGE 1: k=1 (n=4, E=(e1,e3)) ===
+A_1(3) total : got 19    want 19    OK
+A_1(9) total : got 217   want 217   OK
+A_1(9) censo : {1, 3, 6, 9, 12, 15, 18, 21, 24, 24, 21, 18, 15, 12, 9, 6, 3}
+
+=== STAGE 2: k=2, k=3 at q=3 ===
+A_2(3) total : got 141   want 141   OK
+A_2(3) censo : got {1, 5, 15, 29, 40, 36, 15}
+               want {1, 5, 15, 29, 40, 36, 15}   OK
+A_3(3) total : got 1107  want 1107  OK
+A_3(3) censo : got {1, 7, 28, 76, 154, 238, 280, 232, 91}
+               want {1, 7, 28, 76, 154, 238, 280, 232, 91}   OK
+
+ALL STAGE 1-2 GATES PASS — engine validated on 4 sealed anchors.
+
+=== STAGE 3a (cost probe): k=2 at q=9 ===
+A_2(9) total : got 7761  want 7761  OK
+A_2(9) censo : {1, 5, 15, 34, 65, 110, 170, 245, 335, 435, 535, 621,
+                680, 710, 710, 680, 620, 530, 420, 315, 225, 150, 90,
+                45, 15}
+
+=== STAGE 3b (MAIN): k=3 at q=9 — the second Frobenius rung of dimension six ===
+A_3(9) censo : {1, 7, 28, 83, 203, 433, 833, 1477, 2451, 3843, 5726,
+                8135, 11046, 14358, 17884, 21371, 24527, 27048, 28644,
+                29085, 28259, 26292, 23416, 19915, 16100, 12285, 8785,
+                5880, 3675, 2100, 1050, 420, 105}
+A_3(9) total : 345465     [gate: P_3(9) = 345465]   OK
+
+--- Confinement check (Theorem 1.6): top nonzero census degree ---
+A_3(9) top degree = 32 = 4*(9-1) = (k+1)(q-1)   OK  (unforced)
+
+--- Ledger slicing at q=9 (Theorem 5.1), from this census ---
+Zone A   (d < 9)          : 5516
+Window   (9 <= d < 18)    : 133938
+Collar   (18 <= d <= 35)  : 206011
+Top      (d > 35)         : 0
+Sum = 5516 + 133938 + 0 + 206011 = 345465 = A_3(9)   OK (4/4 byte-exact)
+
+================================================================
+SUMMARY OF SEALED ANCHORS (all byte-exact, first run):
+  A_1(3) = 19       = P_1(3)
+  A_1(9) = 217      = P_1(9)
+  A_2(3) = 141      = P_2(3)
+  A_2(9) = 7761     = P_2(9)
+  A_3(3) = 1107     = P_3(3)
+  A_3(9) = 345465   = P_3(9)   <-- the Hammock's two rungs (q=3, q=9)
+Dimension six closed at TWO Frobenius levels; both equal P_3.
+================================================================

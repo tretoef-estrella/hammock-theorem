@@ -1,0 +1,26 @@
+Last login: Wed Jul 15 01:11:49 on ttys004
+rafa@MacBook-Air-de-RAFAEL Downloads % cd ~/Downloads
+M2 --script "HAMMOCK_REG_M3_HILBERTSERIES_v4.m2"
+================================================================
+ RIGOROUS ONSET via HILBERT SERIES (v4) — no resolution needed
+================================================================
+GATE (heads 9/9): PASS
+dim M(3) = 4
+                          2     3     4      5      6      7      8      9      10      11     12
+                         T  + 3T  + 7T  + 12T  + 39T  + 59T  + 72T  + 56T  + 39T   + 20T   + 7T
+reduced Hilbert series = ------------------------------------------------------------------------
+                                                                4
+                                                         (1 - T)
+                  2     3     4      5      6      7      8      9      10      11     12
+numerator Q(t) = T  + 3T  + 7T  + 12T  + 39T  + 59T  + 72T  + 56T  + 39T   + 20T   + 7T
+deg Q = 12,  dim d = 4
+last possible disagreement degree = deg Q - d = 8
+=> HF(e) = HP(e) for all e > 8,  i.e. for all e >= 9.
+Verdict: HF = HP for all e >= 9 <= 9  =>  the dimension-six census law is a THEOREM for all e >= 9. G1 CLOSED at k=3 (rigorous, cheap).
+
+================================================================
+ Note: reg(R) = k(k+1) = 12 exactly (R = S/E is a complete intersection,
+ odd degrees 1,3,5,7 -> reg = 0+2+4+6 = 12 = the Swap-Ramp scale). The census
+ onset e0 = 9 = k^2 sits below it, and the Hilbert series pins HF=HP for e >= 9.
+================================================================
+rafa@MacBook-Air-de-RAFAEL Downloads % 

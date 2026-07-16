@@ -1,0 +1,35 @@
+Last login: Wed Jul 15 01:02:38 on ttys003
+rafa@MacBook-Air-de-RAFAEL Downloads % cd ~/Downloads
+M2 --script "HAMMOCK_REG_M3_LIGHT_v3.m2"
+================================================================
+ REGULARITY OF M(3), LIGHT (v3) — Hilbert function vs the cubic
+================================================================
+
+=== Hilbert function of M(3) vs sealed heads and the cubic ===
+  e=0 : HF=0   cubic HP=-14112   ≠ (deviation)  [sealed head 0 OK]
+  e=1 : HF=0   cubic HP=-8862   ≠ (deviation)  [sealed head 0 OK]
+  e=2 : HF=1   cubic HP=-5187   ≠ (deviation)  [sealed head 1 OK]
+  e=3 : HF=7   cubic HP=-2772   ≠ (deviation)  [sealed head 7 OK]
+  e=4 : HF=29   cubic HP=-1302   ≠ (deviation)  [sealed head 29 OK]
+  e=5 : HF=90   cubic HP=-462   ≠ (deviation)  [sealed head 90 OK]
+  e=6 : HF=252   cubic HP=63   ≠ (deviation)  [sealed head 252 OK]
+  e=7 : HF=636   cubic HP=588   ≠ (deviation)  [sealed head 636 OK]
+  e=8 : HF=1435   cubic HP=1428   ≠ (deviation)  [sealed head 1435 OK]
+  e=9 : HF=2898   cubic HP=2898   = (matches cubic)
+  e=10 : HF=5313   cubic HP=5313   = (matches cubic)
+  e=11 : HF=8988   cubic HP=8988   = (matches cubic)
+  e=12 : HF=14238   cubic HP=14238   = (matches cubic)
+  e=13 : HF=21378   cubic HP=21378   = (matches cubic)
+  e=14 : HF=30723   cubic HP=30723   = (matches cubic)
+
+GATE PASS (heads 9/9).
+Last degree where HF ≠ cubic:  e = 8
+First degree of stable agreement (onset e0):  e = 9
+Swap-Ramp bound k(k+1) = 12;  filed prediction e0 = 9.
+Verdict: onset <= 12  =>  with verified sigma_9..sigma_12 and Slap 2 (reg<=105), the dim-six census law holds unconditionally for all e >= 9. G1 CLOSED at k=3.
+
+================================================================
+ Light method: only hilbertFunction calls (no resolution). The onset
+ e0 = last-disagreement + 1 is read directly; e0 <= 12 seals G1 at k=3.
+================================================================
+rafa@MacBook-Air-de-RAFAEL Downloads % 

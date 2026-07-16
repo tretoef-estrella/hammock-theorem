@@ -1,0 +1,29 @@
+Last login: Tue Jul 14 18:22:03 on ttys000
+rafa@MacBook-Air-de-RAFAEL Downloads % cd ~/Downloads
+caffeinate -dis M2 --script "HAMMOCK_STAR_TYPEI_L2_Q9.m2"
+================================================================
+ TYPE-(i) STAR (B_3, nerve K(3,3), 6 sheets) — DIRECT q=9 MEASUREMENT
+================================================================
+
+=== GATE (q=3): star census must equal brute-force |union(F_3)| ===
+  A_star(3)      = 279
+  |union(F_3)|   = 279   (brute force over 3^8 = 6561 points)
+  GATE: PASS — the star saturates at q=3 (A_star = |union|)
+  census(q=3)    = {1, 6, 20, 43, 64, 67, 49, 23, 6}
+
+=== MEASUREMENT (q=9): the direct probe of the type-(i) star ===
+  A_star(9)      = 33129
+  confinement top = 32   (bound 4*(9-1) = 32)   OK
+  census(q=9)    = {1, 6, 20, 49, 99, 176, 286, 435, 629, 868, 1141, 1432, 1723, 1996, 2233, 2416, 2527, 2548, 2476, 2324, 2109, 1849, 1562, 1266, 979, 719, 504, 336, 210, 120, 60, 24, 6}
+
+=== collar slack carrier (single-sheet ceiling vs star truth, q=9) ===
+  single-sheet census(q=9) = {1, 4, 10, 20, 35, 56, 84, 120, 165, 216, 270, 324, 375, 420, 456, 480, 489, 480, 456, 420, 375, 324, 270, 216, 165, 120, 84, 56, 35, 20, 10, 4, 1}
+  (6*single - star)_d in the collar band d in [18,32] carries the central defect;
+   compare its type-(i) component against E1: c_i^{L2}(f) = -6f - 14 at q=9.
+
+================================================================
+ E1 prediction (Eigenvector Law) at q=9:  c_i^{L2}(f) = -6f - (q+5) = -6f - 14.
+ This run measures the actual type-(i) 6-sheet star at q=9 directly (gated at q=3),
+ replacing the indirect validation noted as the G2 scope reserve.
+================================================================
+rafa@MacBook-Air-de-RAFAEL Downloads % 

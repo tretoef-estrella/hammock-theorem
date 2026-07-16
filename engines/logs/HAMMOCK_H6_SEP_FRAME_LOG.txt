@@ -1,0 +1,4 @@
+swap-adjacent pairs: 630
+  [F3] no full frame in 40000 tries; best transversality 77/105
+  [F9  (q=9)] CERTIFIED: transverse 105/105, SEP 630/630  (attempt 293)
+  [F27 (q=27, Top!=0)] CERTIFIED: transverse 105/105, SEP 630/630  (attempt 0)
