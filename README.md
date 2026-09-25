@@ -4,6 +4,8 @@
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21382543-blue)](https://doi.org/10.5281/zenodo.21382543)
 
+> **⚠️ Note added on 25 September 2026.** The count $A_3(q)=P_3(q)$ proved in this repository stands. The sentences stating that it is equivalent to the saturation of the diagonal sublattice, and that it establishes Conjecture 1.2 of Degtyarev–Shimada, rest on an identification between the count and the conjecture that was never proved; it is false for families of matchings. The conclusion itself is true. Conjecture 1.2 for the degree-$3^v$ Fermat sixfolds is the case $k=3$ of the Main Theorem of *The Chaise Longue Theorem* ([doi:10.5281/zenodo.22961150](https://doi.org/10.5281/zenodo.22961150)), which proves the conjecture for every odd degree and every even dimension by a different route. In addition, for $q\ge 27$ the top zone of this paper uses Theorem 3.1 at the three degrees $c=q,\,q+1,\,q+2$, which lie outside its stated range $c<q$; the paper does not write out that step. The count $A_3(q)=P_3(q)$ is proved independently, for every $k$ and every odd $q$, as Theorem A of *The Chaise Longue Theorem*. This repository is otherwise unchanged.
+
 > **Status:** candidate proof · every load-bearing number is a finite computation over $\mathbb{F}_3$ on a fixed, $q$-free object, reproduced in **Macaulay2 (v1.26.06)** and cross-checked in independent engines · cold-reviewed by four AI systems across three model families, none of which produced a break · **awaiting expert human review.**
 > This is offered to the mathematical community precisely so that it can be examined, reproduced, and — if it holds — used. If you can break any link, the byte-exact discrepancy is more valuable to us than agreement.
 
