@@ -8,6 +8,8 @@
 
 > **Note added on 1 October 2026.** As a count, $A_3(q)=P_3(q)$ (a statement in characteristic 3) also follows from the literature: from a proposition of Bezrukavnikov, Riche and Rider on modules with a good filtration ([arXiv:2005.05583](https://arxiv.org/abs/2005.05583), Proposition 2.12), through the dictionary of Remark 8.4 of version 10 of *The Chaise Longue Theorem* ([doi:10.5281/zenodo.22961150](https://doi.org/10.5281/zenodo.22961150)); the proof in this repository is an independent, elementary route to it.
 
+> **Note added on 4 October 2026.** Version 12 of *The Chaise Longue Theorem* ([doi:10.5281/zenodo.22961150](https://doi.org/10.5281/zenodo.22961150)) proves Conjecture 1.2 for **every** degree $m \ge 3$ in every even dimension, not only the odd degrees mentioned in the note of 25 September above; its algebraic form is verified in Lean 4 for every degree. Nothing in this repository changes.
+
 > **Status:** candidate proof · every load-bearing number is a finite computation over $\mathbb{F}_3$ on a fixed, $q$-free object, reproduced in **Macaulay2 (v1.26.06)** and cross-checked in independent engines · cold-reviewed by four AI systems across three model families, none of which produced a break · **awaiting expert human review.**
 > This is offered to the mathematical community precisely so that it can be examined, reproduced, and — if it holds — used. If you can break any link, the byte-exact discrepancy is more valuable to us than agreement.
 
